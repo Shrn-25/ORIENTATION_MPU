@@ -1,4 +1,3 @@
-# ORIENTATION_MPU
 
 # Real-Time IMU 3D Visualization-PYTHON Version
 
@@ -28,8 +27,15 @@ This project visualizes IMU sensor data (roll, pitch, yaw) as a real-time 3D rot
 ## 💻 Software Requirements
 - Python 3.6+
 - matplotlib (3D plotting)
+- arduino ide
 - numpy (mathematical operations)
 - pyserial (Arduino communication)
+
+## Guide to use:
+- upload the MPU_basic code to Arduino Uno (or any boards by doing appropiate modifications))
+- run the realtime_imu.py
+- Wait 7 seconds for CALIBRATION
+- Have fun
 
 
 # Real-Time IMU 3D Visualization-Arduino Processing version
@@ -73,3 +79,14 @@ text
 - **Processing IDE** (3.5.4 or newer) - Download from [processing.org](https://processing.org/download/)
 - **Arduino IDE** - For uploading sensor code
 - **MPU6050 Arduino Library** - Install via Arduino Library Manager
+
+  
+## Guide to use:
+- upload the MPU_basic code to Arduino Uno (or any boards by doing appropiate modifications))
+- download the 3d model in obj format
+- store it in the same folder as of the .pde file
+- change the name of the 3D object,and PORT in the .pde file
+- connect Arduino
+- Run the .pde file
+- Wait 7 seconds for CALIBRATION
+- Have fun
